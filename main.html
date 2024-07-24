@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html>
   <body>
+      <form onsubmit="updateURL(); return false;">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <br>
+        <label for="year">Year:</label>
+        <input type="number" id="year" name="year">
+        <br>
+        <button type="submit" id="button">Submit</button>
+    </form>
+    <h3 id="url">https://localhost:8080/</h3>
+	  
     <script type="text/javascript" src="./script.js">
 </script>
   </body>
